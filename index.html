@@ -7,6 +7,10 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous">
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
@@ -17,52 +21,137 @@
 
 <body>
 
-  <div class="margins">
+  <div class="container">
 
-    <div class="window">
+    <div class="box">
 
-        <div class="heading">
-          <span class="title">Text Editor</span>
+      <div class="textbox">
+
+        <div class="window-header">
+          <div class="red"></div>
+          <div class="yellow"></div>
+          <div class="green"></div>
         </div>
 
-        <div class="window-content">
-          <!-- <ol class="code">
 
-            <li class="line">&lt;!DOCTYPE html&gt;</li>
-            <li class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;</li>
-            <li class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Ricki Echevarria - Portfolio&lt;/title&gt;</li>
-            <li class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;</li>
-            <li class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</li>
-            <li class="line comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Hello! My name is Ricki. --&gt;</li>
-            <li class="line comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Welcome to my website! --&gt;</li>
-            <li class="line"></li>
-            <li class="line"></li>
-            <li class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;</li>
-            <li class="line">&lt;/html&gt;</li>
-            <li class="line"></li>
-          </ol> -->
+        <div class="header">
+          <p class="file">File</p>
+          <p class="edit">Edit</p>
+          <p class=debug>Debug</p>
+          <p class="terminal">Terminal</p>
+          <p class="help">Help</p>
+        </div>
 
-          <div class="code">
-            <p class="line">&lt;!DOCTYPE html&gt;</p>
-            <p class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;</p>
-            <p class="line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Ricki Echevarria - Portfolio&lt;/title&gt</p>
-            <p class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;</p>
-            <p class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;</p>
-            <p class="line comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Hello! My name is Ricki. --&gt;</p>
-            <p class="line comment">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Welcome to my website! --&gt;</p>
-            <strong><p class="line" id="type-here"></p></strong>
-            <p class="line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;</p>
-            <p class="line">&lt;/html&gt;</p>
+        <div class="sidebar-sidebar">
+          <i class="far fa-copy fa-3x document"></i>
+          <i class="fas fa-search fa-3x search"></i>
+          <i class="fas fa-code-branch fa-3x fork"></i>
+          <i class="fas fa-box-open fa-3x extension"></i>
+          <i class="fas fa-cog fa-3x search-sidebar"></i>
+        </div>
+
+        <div class="sidebar">
+
+          <div class="sidebar-header">
+
+            <p class="projects">Projects</p>
+
+          </div>
+
+          <div class="portfolio-projects">
+            <p class="rickiangela"><i class="fas fa-caret-down"></i>rickiangela.github</p>
+            <p class="assets"><i class="fas fa-caret-down"></i>assets</p>
+            <p class="css"><i class="fas fa-caret-down"></i>css</p>
+            <p class="index-css"><i class="fas fa-hashtag"></i> index.css</p>
+            <p class="images"><i class="fas fa-caret-right"></i>images</p>
+            <p class="javascript"><i class="fas fa-caret-down">javascript</i></p>
+            <p class="index-js"><i class="fab fa-js"></i> index.js</p>
+            <p class="index-html"><i class="fas fa-code"></i> index.html</p>
           </div>
         </div>
+
+        <!-- <div class="projects">
+
+          <div class="project-1"><i class="fas fa-hashtag"></i>index.css</div>
+          <div class= "project-2"><i class="fas fa-hashtag"></i>index.html</div>
+          <div class="project-3"><i class="fab fa-js"></i>index.js</div>
+          <p class="ellipsis"><i class="fas fa-ellipsis-h"></i></p>
+
+        </div>
+
+        <div class="text-body">
+          <p class="number">1. <p class="code"></p></p>
+          <p class="number">2. <p class="code"></p></p>
+          <p class="number">3. <p class="code"></p></p>
+          <p class="number">4. <p class="code"></p></p>
+          <p class="number">5. <p class="code"></p></p>
+          <p class="number">6. <p class="code"></p></p>
+          <p class="number">7. <p class="code"></p></p>
+          <p class="number">8. <p class="code"></p></p>
+          <p class="number">9. <p class="code"></p></p>
+          <p class="number">10. <p class="code"></p></p>
+          <p class="number">11. <p class="code"></p></p>
+          <p class="number">12. <p class="code"></p></p>
+          <p class="number">13. <p class="code"></p></p>
+          <p class="number">14. <p class="code"></p></p>
+          <p class="number">15. <p class="code"></p></p>
+          <p class="number">16. <p class="code"></p></p>
+          <p class="number">17. <p class="code"></p></p>
+          <p class="number">18. <p class="code"></p></p>
+          <p class="number">19. <p class="code"></p></p>
+          <p class="number">20. <p class="code"></p></p>
+        </div>
+
+        <div class="footer">
+          <p class="master"><i class="fas fa-code-branch"></i>master*</p>
+          <p class="sync"><i class="fas fa-sync-alt"></i></p>
+          <p class="error"><i class="fas fa-exclamation-circle"></i></p>
+          <p class="ricki"><i class="fas fa-male"></i>Ricki</p>
+          <p class="smile"><i class="fas fa-smile"></i></p>
+          <p class="bell"><i class="fas fa-bell"></i></p>
+        </div> -->
+
       </div>
+
+
+
+
 
     </div>
 
-    
 
-    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
-    <script src="assets/javascript/index.js"></script>
+  </div>
+
+
+
+
+  <!-- Button to Portfolio -->
+  <div class="button">
+    <a class="button-text" href="portfolio.html"></a>
+  </div>
+
+
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h1 class="modal-header">Hello World!</h1>
+      <h3 class="modal-body">Welcome to my wesite. My name is Ricki. Would you like to continue to the next page or
+        stay here and look around?</h3>
+      <p class="trigger">No. I want to stay.</p>
+      <a class="link" href="portfolio.html">Yes! Let's go explore.</a>
+    </div>
+  </div>
+
+
+
+  <!-- Javascript -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="assets/javascript/index.js"></script>
+
 </body>
 
 </html>

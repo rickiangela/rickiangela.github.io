@@ -1,15 +1,31 @@
-var type = document.getElementById('type-here');
+// $(document).ready(function () {
 
-var typewriter = new Typewriter(type, {
-    loop: false
-});
+//     setTimeout(function () {
 
-typewriter.typeString('\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+'<h2')
-    .pauseFor(1000)
-    .deleteChars(1)
-    .typeString('1>Helllo ')
-    .pauseFor(1000)
-    .deleteChars(3)
-    .typeString('o World!</h1>')
-    .pauseFor(2500)
-    .start();
+//         $('#myModal').fadeIn();
+//         $('.container').addClass('blur');
+
+//     }, 2000);
+
+// });
+
+var modal = document.getElementById('myModal');
+var span = document.getElementsByClassName("close")[0];
+var answer = document.getElementsByClassName('trigger')[0];
+
+span.onclick = function () {
+    $('#myModal').fadeOut();
+    $('.container').removeClass('blur');
+}
+
+window.onclick = function (event) {
+    if (event.target == modal) {
+        $('#myModal').fadeOut();
+        $('.container').removeClass('blur');
+    }
+}
+
+answer.onclick = function (event) {
+    $('#myModal').fadeOut();
+    $('.container').removeClass('blur');
+}

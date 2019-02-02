@@ -1,58 +1,280 @@
-.margins {
-  margin-top: 3%;
-  margin-left: 18.5%
-}
-
 body {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 13px;
-  background-color: #646FC7;
+  background-color: #A3BAE0;
 }
 
-.window {
-  width: 800px;
-  height: 550px;
+.container {
+  height: 100%;
+  width: 100%;
 }
 
-.heading {
+.box {
+  height: 100%;
+  width: 100%;
+}
+
+/* Text Editor */
+
+.textbox {
+  background-color: #252526;
+  color: #F0FFF0;
+  height: 495px;
+  width: 900px;
+  margin-left: 13%;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+
+/* Window Header */
+.window-header {
+  background-color: #DBDBDB;
+  width: 100%;
   height: 20px;
-  width: 97.5%;
-  background-color: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.green {
+  background-color: green;
+  height:10px;
+  width: 10px;
+  border-radius: 25px;
+  margin: 3px;
+  float: left;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 10px;
+  width: 10px;
+  border-radius: 25px;
+  margin: 3px;
+  float: left;
+}
+
+.red {
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  border-radius: 25px;
+  margin: 3px;
+  float: left;
+}
+
+/* Nav Bar */
+.header {
+  background-color: #474747;
+  height: 20px;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.help {
+  float: left;
+  font-size: 13px;
+  margin: 5px;
+  margin-top: 2px;
+}
+
+.terminal {
+  float: left;
+  font-size: 13px;
+  margin: 5px;
+  margin-top: 2px;
+}
+
+.debug {
+  float: left;
+  font-size: 13px;
+  margin: 5px;
+  margin-top: 2px;
+}
+
+.edit {
+  float: left;
+  font-size: 13px;
+  margin: 5px;
+  margin-top: 2px;
+}
+
+.file {
+  float:left;
+  font-size: 13px;
+  margin: 5px;
+  margin-top: 2px;
+  margin-left: 50px;
+}
+
+/* Workspace */
+
+.sidebar {
+  background-color: #252526;
+  float: left;
+  height: 450px;
+  width: 13%;
+}
+
+.sidebar-header {
+  background-color: #373737;
+  height: 60px;
+  width: 100%;
+}
+
+.portfolio-sidebar {
+  background-color: #373737;
+  color: #E8EAF7;
+  height: 200px;
+  width: 100%;
+}
+
+.projects {
+  background-color: #252526;
+  text-align: left;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 13px;
+}
+
+/* Icons Sidebar */
+.sidebar-sidebar {
+  float: left;
+  background-color: #333333;
+  height: 450px;
+  width: 7%;
+  border-bottom-left-radius: 5px;
+}
+
+.document {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.search {
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+
+.fork {
+  margin-bottom: 20px;
+  margin-left: 13px;
+}
+
+.extension {
+  margin-bottom: 20px;
+  margin-left: 6px;
+}
+
+.search-sidebar {
+  margin-top: 150px;
+  margin-left: 10px;
+}
+
+.project-1 {
+  background-color: #2D2D2D;
+  color: #858585;
+}
+
+.project-2 {
+  background-color: #252526;
+}
+
+.project-3 {
+  background-color: #2D2D2D;
+  color: #858585;
+}
+
+.text-body {
+  background-color: #2D2D2D;
+  color: #858585;
+}
+
+.footer {
+  background-color: #007ACC;
+}
+
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #E8EAF7;
+  margin: 8% auto; 
+  padding: 20px;
+  border: 1px solid #4430AD;
+  width: 40%;
+  height: 35%;
+}
+
+.close {
+  color: #646FC7;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #4430AD;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  font-size: 30px;
+}
+
+.modal-body {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 35px;
+}
+
+.trigger {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  background-color: #646FC7;
+  color: #E8EAF7;
+  width: 110px;
+  height: 10px;
   padding: 10px;
-  text-align: center;
-  color: #555;
-  font-size: 18px;
-}
-.title { 
-  margin-left: -10px;;
+  margin: 5px;
+  padding-bottom: 15px;
+  float: right;
+  cursor: pointer;
 }
 
-.window-content {
-  background-color: #fff;
-  padding-top: 4px;
-
+.link {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  background-color: #646FC7;
+  color: #E8EAF7;
+  width: 125px;
+  height: 10px;
+  padding: 10px;
+  margin: 5px;
+  padding-bottom: 15px;
+  float: right;
 }
 
-.code {
-  font-family: monospace;
-  list-style: none;
-  color: #555;
+.trigger:hover,
+.link:hover {
+  text-decoration: none;
+  background-color: #4430AD;
+  color: #E8EAF7;
 }
 
-.comment { 
-    color: #646FC7;
-}
-  
-.line {
-    display: block;
-    counter-increment: lineNum;
-}
-
-.line:before {
-    display: inline-block;
-    content: counter(lineNum, decimal-leading-zero);
-    padding: 8px 24px;
-    margin-right: 30px;
-    font-weight: 700;
-    color: #ccc;
+.blur {
+  filter: blur(2px);
 }

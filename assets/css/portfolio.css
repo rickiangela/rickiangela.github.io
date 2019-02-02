@@ -58,7 +58,7 @@ a {
 
 .intro {
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 13%;
     height: 400px;
     width: 900px;
@@ -77,15 +77,16 @@ h3{
     font-family: 'Quicksand', sans-serif;
     font-size:25px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .self-cartoon {
-    height: 225px;
-    width: 225px;
+    height: 275px;
+    width: 275px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 5px;
     border-radius: 100px;
 }
 
@@ -119,13 +120,13 @@ h3{
     margin: 30px;
     text-align: center;
     font-size: 60px;
-    text-shadow: 2px 2px 5px #4430AD;
+    text-shadow: 1px 1px 3px #4430AD;
 }
 
 .portfolio-sub-header{
     margin: 15px;
     margin-bottom: 60px;
-    text-shadow: 2px 2px 5px #4430AD;
+    text-shadow: 1px 1px 2px #4430AD;
 }
 
 /* make each website a button */
@@ -201,60 +202,124 @@ h3{
     background-color: #A3BAE0;
     color: white;
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
-.programs {
-    float: left;
-    background-color: transparent;
-    width: 34.5%;
-    height: 90%;
-    margin-right: 10%;
-    perspective: 1000px;
+.skills-box {
+    height: 450px;
+    width: 40%;
+    margin: auto;
+    background-color: #C6D4EB;
     box-shadow: 1px 1px 2px black, 0 0 25px #646FC7, 0 0 5px #4430AD;
 }
 
-.skills {
-    float: left;
-    background-color: transparent;
-    width: 34.5%;
-    height: 90%;
-    margin-left: 10%;
-    margin-right: 10%;
-    perspective: 1000px;
-    box-shadow: 1px 1px 2px black, 0 0 25px #646FC7, 0 0 5px #4430AD;
-}
-
-.flip-card-inner {
+.smaller-box {
     position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    top: 15px;
+}
 
-.flip-card-front, .flip-card-back {
-    position: absolute;
+.skills-header {
+    height: 40px;
     width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  
-.flip-card-front {
-    background-color: #646FC7;
-    color: #E8EAF7;
-  }
-  
-.flip-card-back {
+    padding-bottom: 15px;
+}
+
+.skills-heading {
+    color: #4430AD;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.skills-text {
+    color: #646FC7;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.bar {
+    width: 99%;
+    height: 15px;
+    border-radius: 3px;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid #4430AD;
+    background-color: #A3BAE0;
+}
+
+.html {
+    height: 11px;
+    width: 72%;
     background-color: #4430AD;
-    color: #E8EAF7;
-    transform: rotateY(180deg);
-  }
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.css {
+    height: 11px;
+    width: 83%;
+    background-color: #4430AD;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.js {
+    height: 11px;
+    width: 58%;
+    background-color: #4430AD;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.jquery {
+    height: 11px;
+    width: 64%;
+    background-color: #4430AD;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.response {
+    height: 11px;
+    width: 50%;
+    background-color: #4430AD;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.git {
+    height: 11px;
+    width: 77%;
+    background-color: #4430AD;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.team {
+    height: 11px;
+    width: 90%;
+    background-color: #4430AD;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
 
 /* Navbar */
 .nav {
@@ -330,7 +395,7 @@ h3{
     text-align: center;
     padding: 16px;
     transition: all 0.3s ease;
-    color: white;
+    color: #E8EAF7;
     font-size: 20px;
 }
   
@@ -340,17 +405,17 @@ h3{
   
 .github {
     background: black;
-    color: white;
+    color: #E8EAF7;
 }
 
 .google-plus {
     background: #dd4b39;
-    color: white;
+    color: #E8EAF7;
 }
   
 .linkedin {
     background: #007bb5;
-    color: white;
+    color: #E8EAF7;
 }
 
   /* Footer */
