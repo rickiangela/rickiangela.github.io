@@ -108,6 +108,42 @@ body {
 
 /* Workspace */
 
+.projects {
+  /* background-color: #252526; */
+  float: left;
+  background-color: orange;
+  font-size: 15px;
+  height: 40%;
+  width: 60%;
+  margin-left: 5px;
+}
+
+.ellipsis {
+  float: left;
+  width: 10%
+}
+
+.project-3 {
+  background-color: #2D2D2D;
+  color: #858585;
+  float: left;
+  width: 10%;
+}
+
+.project-2 {
+  color: #858585;
+  background-color: #252526;
+  float: left;
+  width: 10%;
+}
+
+.project-1 {
+  background-color: #2D2D2D;
+  color: #858585;
+  float: left;
+  width: 10%;
+}
+
 .sidebar {
   background-color: #252526;
   float: left;
@@ -119,16 +155,18 @@ body {
   background-color: #373737;
   height: 60px;
   width: 100%;
+  padding-left: 4px;
 }
 
-.portfolio-sidebar {
+.portfolio-projects {
   background-color: #373737;
   color: #E8EAF7;
-  height: 200px;
+  height: 364px;
   width: 100%;
+  padding-left: 4px;
 }
 
-.projects {
+.projects-header {
   background-color: #252526;
   text-align: left;
   padding-bottom: 10px;
@@ -169,20 +207,6 @@ body {
 .search-sidebar {
   margin-top: 150px;
   margin-left: 10px;
-}
-
-.project-1 {
-  background-color: #2D2D2D;
-  color: #858585;
-}
-
-.project-2 {
-  background-color: #252526;
-}
-
-.project-3 {
-  background-color: #2D2D2D;
-  color: #858585;
 }
 
 .text-body {
