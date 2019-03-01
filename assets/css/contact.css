@@ -258,3 +258,88 @@ h5 {
     text-align: center;
     border-top: .5px solid #646FC7;
 }
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.box {
+    font-family: 'Quicksand', sans-serif;
+    height: 600px;
+    width: 100%;
+    background-color: #A3BAE0;
+    padding-top: 1px;
+}
+
+.contact-page {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A3BAE0;
+}
+
+.title {
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.txt {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    height: 15px;
+    font-size: 15px;
+}
+
+.textbox {
+    width: 100%;
+    height: 35px;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.write-message {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.submit-button {
+    background-color: #646FC7;
+    height: 35px;
+    width: 80px;  
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 30px;
+    float: right;
+}
+
+.submit-button:hover {
+    background-color: #4430AD;
+}
+
+.submit {
+  font-weight: 13px;
+  color: #E8EAF7; 
+  margin: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+}
