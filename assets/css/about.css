@@ -259,3 +259,99 @@ h5 {
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
+
+.big-box {
+    font-family: 'Quicksand', sans-serif;
+    height: 1000px;
+    width: 100%;
+    background-color: #A3BAE0;
+    padding-top: 1px;
+}
+
+.little-box {
+    height: 100px; 
+    width: 75%;
+    margin: auto;
+}
+
+.about-header {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.header1 {
+    float: left;
+    height: 90px;
+    width: 30%;
+    font-size: 44px;
+    margin-left: 100px;
+    text-shadow: 1px 1px 3px #4430AD;
+}
+
+.header2 {
+    float: right;
+    height: 90px;
+    width: 45%;
+    font-size: 80px;
+    margin-right: 100px;
+    text-shadow: 1px 1px 3px #4430AD;
+}
+
+.profile-box {
+    border: 1px solid red;
+    float: left;
+    height: 500px;
+    width: 22%;
+    margin-right: 3%;
+    margin-top: 40px;
+}
+
+.pic-of-me {
+    border: 1px solid #646FC7;
+    height: auto;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.box1 {
+    border: 1px solid green;
+    float: left;
+    height: 500px;
+    width: 35%;
+    margin-top: 40px;
+}
+
+.box2 {
+    border: 1px solid blue;
+    float: left;
+    height: 500px;
+    width: 35%;
+    margin-top: 40px;
+}
+
+.box1small1 {
+    width: 100%;
+    border: 1px solid green;
+    height: 45%;
+}
+
+.box1small2 {
+    width: 100%;
+    border: 1px solid green;
+    height: 55%;
+}
+
+.box2small1 {
+    width: 100%;
+    border: 1px solid blue;
+    height: 70%;
+}
+
+.box2small2 {
+    width: 100%;
+    border: 1px solid blue;
+    height: 30%;
+}
