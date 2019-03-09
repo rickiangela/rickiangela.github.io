@@ -26,6 +26,47 @@ body {
   border-radius: 5px;
 }
 
+/* Top Box */
+
+.top {
+  width: 100%;
+  height: 45px;
+}
+
+/* Bottom Box */
+
+.bottom {
+  background-color: green;
+  width: 100%;
+  height: 450px;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+.main-box-one {
+  background-color: pink;
+  height: 100%;
+  width: 9%;
+  float: left;
+}
+
+.main-box-two {
+  background-color: teal;
+  height: 100%;
+  width: 29%;
+  float: left;
+}
+
+.main-box-three{
+  background-color: plum;
+  height: 100%;
+  width: 59%;
+  float: left;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
 /* Window Header */
 .window-header {
   background-color: #DBDBDB;
@@ -109,7 +150,7 @@ body {
 /* Workspace */
 
 .projects {
-  /* background-color: #252526; */
+  background-color: #252526;
   float: left;
   background-color: orange;
   font-size: 15px;
