@@ -10,7 +10,6 @@ html, body {
 }
 
 .logo{
-    position: relative;
     float: left;
     margin-left: 40px;
     margin-top: 30px;
@@ -102,8 +101,9 @@ h3{
 }
 
 .column {
-    width: 100%;
+    width: 96%;
     height: auto;
+    margin-left: 2.5%;
 }
 
 .individual-picture {
@@ -430,7 +430,7 @@ h3{
 }
 
 .pic-and-blurb {
-    margin-left: 40px;
+    margin-left: 50px;
     width: 20%;
     height: auto;
     padding-bottom: 10px;
@@ -462,9 +462,9 @@ h5 {
 
 .contact-me {
     float: right;
-    width: 18%;
+    width: 23%;
     height: auto;
-    margin-right: 20px;
+    margin-right: 0;
 }
 
 .contact-header {
@@ -486,4 +486,837 @@ h5 {
     font-size: 15px;
     text-align: center;
     border-top: .5px solid #646FC7;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .intro {
+        height: 400px;
+        width: 400px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .column {
+        margin-left: 3%;
+    }
+
+    .portfolio {
+        height: 1950px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 55%;
+        font-size: 14px;
+    }
+
+    .skills-box {
+        width: 90%;
+    }
+
+    .hire-now {
+        font-size: 15px;
+    }
+
+    .footer-image {
+        width: 80px;
+        height: auto;
+    }
+    
+    .contact-me {
+        width: 44%;
+        color: purple;
+        font-size: 14px;
+    }
+  }
+
+@media only screen and (min-width: 500px) and (max-width: 550px) {
+    .intro {
+        height: 400px;
+        width: 450px;
+        left: 3%;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+
+    .skills-box {
+        width: 90%;
+    }
+    
+    .portfolio-header {
+        font-size: 40px;
+    }
+    
+    .container {
+        width: 97%;
+    }
+    
+    .column {
+        margin-left: 3%;
+    }
+
+    .portfolio {
+        height: 2180px;
+    }
+    
+    .hire-me {
+        margin-right: 20px;
+    }
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 49%;
+        font-size: 16px;
+    }
+
+    .footer-image {
+        width: 80px;
+        height: auto;
+    }
+
+    .contact-me {
+        width: 41%;
+        color: olive;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 600px) {
+    .intro {
+        height: 400px;
+        width: 500px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 97%;
+    }
+
+    .column {
+        margin-left: 3%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .portfolio {
+        height: 2360px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }
+
+    .skills-box {
+        width: 75%;
+    }
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 46%;
+    }
+    
+    .contact-me {
+        width: 38%;
+        color: chocolate;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 650px) {
+    .intro {
+        height: 400px;
+        width: 570px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .column {
+        margin-left: 6%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .skills-box {
+        width: 90%;
+    }
+
+    .portfolio {
+        height: 800px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 42%;
+    }
+    
+    .contact-me {
+        width: 35%;
+        color: yellow;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 700px) {
+    .intro {
+        height: 400px;
+        width: 600px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 275px;
+        width: 275px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .column {
+        margin-left: 6%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .portfolio {
+        height: 800px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }  
+
+    .skills-box {
+        width: 70%;
+    }
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 39%;
+    }
+    
+    .contact-me {
+        width: 35%;
+        color: rosybrown;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 750px) {
+    .intro {
+        height: 400px;
+        width: 650px;
+        left: 4%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 225px;
+        width: 225px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .column {
+        margin-left: 6%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .portfolio {
+        height: 850px;
+    }
+
+    .skills-box {
+        width: 60%;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }  
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 36.5%;
+    }
+    
+    .contact-me {
+        width: 30%;
+        color: firebrick;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 800px) {
+    .intro {
+        height: 400px;
+        width: 650px;
+        left: 6%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 215px;
+        width: 215px;
+    }
+
+    .portfolio-header {
+        font-size: 45px;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .column {
+        margin-left: 6%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .portfolio {
+        height: 900px;
+    }
+
+    .skills-box {
+        width: 60%;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 33.5%;
+    }
+    
+    .contact-me {
+        width: 30%;
+        color: chartreuse;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 850px) {
+    .intro {
+        height: 400px;
+        width: 730px;
+        left: 6%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 215px;
+        width: 215px;
+    }
+
+    .portfolio-header {
+        font-size: 45px;
+    }
+
+    .container {
+        width: 43%;
+    }
+
+    .column {
+        margin-left: 6%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .portfolio {
+        height: 900px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 31%;
+    }
+    
+    .contact-me {
+        width: 28%;
+        color: lightcoral;
+    }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 900px) {
+    .intro {
+        height: 400px;
+        width: 700px;
+        left: 7%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 265px;
+        width: 265px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 43%;
+    }
+
+    .column {
+        margin-left: 6%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .portfolio {
+        height: 950px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 30%;
+    }
+    
+    .contact-me {
+        width: 25%;
+        color: wheat;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 950px) {
+    .intro {
+        height: 400px;
+        width: 800px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 260px;
+        width: 260px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .column {
+        margin-left: 6%;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .portfolio {
+        height: 1000px;
+    }
+
+    .hire-me {
+        margin-right: 10px;
+    } 
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 28%;
+    }
+    
+    .contact-me {
+        width: 25%;
+        color: pink;
+    }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1000px) {
+    .intro {
+        height: 400px;
+        width: 900px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 260px;
+        width: 260px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 46%;
+    }
+
+    .portfolio {
+        height: 1100px;
+    }
+
+    .column {
+        padding-left: 5%;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .pic-and-blurb {
+        margin-left: 20;
+        width: 26.3%;
+    }
+    
+    .contact-me {
+        width: 25%;
+        color: teal;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1050px) {
+    .intro {
+        height: 400px;
+        width: 950px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 275px;
+        width: 275px;
+    }
+
+    .portfolio-header {
+        font-size: 40px;
+    }
+
+    .container {
+        width: 45%;
+    }
+
+    .portfolio {
+        height: 1100px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+
+    .footer {
+        background-color: #A3BAE0;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .pic-and-blurb {
+        margin-left: 40px;
+        width: 20%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+      
+    h5 {
+        margin-bottom: 22px;
+        display: inline-block;
+    }
+
+    .projects {
+        margin-left: 8%;
+    }
+
+    .portfolio {
+        height: 1050px;
+        padding-top: 10px;
+    }
+
+    .column {
+        margin-left: 2%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .pic-and-blurb {
+        width: 25%;
+    }
+
+    .contact-me {
+        width: 23%;
+        color: hotpink;
+        margin-right: 0;
+    }
+    
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1100px) {
+    .intro {
+        height: 400px;
+        width: 1000px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 270px;
+        width: 270px;
+    }
+
+    .portfolio-header {
+        font-size: 55px;
+    }
+
+    .container {
+        width: 48%;
+    }
+
+    .portfolio {
+        height: 1400px;
+        height: 1300px;
+        padding-top: 10px;
+    }
+
+    .column {
+        margin-left: 2%;
+    }
+
+    .second-one {
+        margin-left: 3px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 24%;
+    }
+    
+    .contact-me {
+        width: 23%;
+        color: purple;
+    }
+      
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1150px) {
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 22.5%;
+    }
+    
+    .contact-me {
+        width: 20%;
+        color: red;
+    }
+    
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1200px) {
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 22%;
+    }
+    
+    .contact-me {
+        width: 20%;
+        color: yellow;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1250px) {
+    .self-cartoon {
+        height: 270px;
+        width: 270px;
+    }
+    
+    .pic-and-blurb {
+        margin-left: 30px;
+        width: 21.5%;
+    }
+    
+    .contact-me {
+        width: 20%;
+        color: green;
+    }
+    
 }

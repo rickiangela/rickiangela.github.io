@@ -428,3 +428,328 @@ h5 {
   margin-left: auto; 
   margin-right: auto;
 }
+
+@media only screen and (max-width: 500px) {
+    .intro {
+        height: 400px;
+        width: 400px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }
+  }
+
+@media only screen and (min-width: 500px) and (max-width: 550px) {
+    .intro {
+        height: 400px;
+        width: 500px;
+        left: 3%;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+    
+    .hire-me {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 600px) {
+    .intro {
+        height: 400px;
+        width: 550px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 650px) {
+    .intro {
+        height: 400px;
+        width: 570px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 240px;
+        width: 240px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 700px) {
+    .intro {
+        height: 400px;
+        width: 600px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .self-cartoon {
+        height: 275px;
+        width: 275px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }  
+}
+
+@media only screen and (min-width: 700px) and (max-width: 750px) {
+    .intro {
+        height: 400px;
+        width: 650px;
+        left: 4%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 225px;
+        width: 225px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    }  
+}
+
+@media only screen and (min-width: 750px) and (max-width: 800px) {
+    .intro {
+        height: 400px;
+        width: 700px;
+        left: 6%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 215px;
+        width: 215px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+}
+
+@media only screen and (min-width: 800px) and (max-width: 850px) {
+    .intro {
+        height: 400px;
+        width: 740px;
+        left: 6%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 215px;
+        width: 215px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+}
+
+@media only screen and (min-width: 850px) and (max-width: 900px) {
+    .intro {
+        height: 400px;
+        width: 750px;
+        left: 7%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 265px;
+        width: 265px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+}
+
+@media only screen and (min-width: 900px) and (max-width: 950px) {
+    .intro {
+        height: 400px;
+        width: 850px;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 265px;
+        width: 265px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1000px) {
+    .intro {
+        height: 400px;
+        width: 950px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 265px;
+        width: 265px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1050px) {
+    .intro {
+        height: 400px;
+        width: 950px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 275px;
+        width: 275px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1100px) {
+    .intro {
+        height: 400px;
+        width: 1000px;
+        left: 3%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .self-cartoon {
+        height: 275px;
+        width: 275px;
+    }
+
+    .hire-me {
+        margin-right: 20px;
+    } 
+}
